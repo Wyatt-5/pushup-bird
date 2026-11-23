@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
+
+# 摄像头截图里有人脸，仓库是公开的，不上传
+docs/shot_camera.png
+docs/shot_eyes_debug.png
+docs/shot_debug_all.png
+docs/shot_final.png
+docs/shot_ready_arc.png

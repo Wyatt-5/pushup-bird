@@ -1,0 +1,15 @@
+# 摄像头体感模式 + 键盘模式 都需要的依赖（已实测 Python 3.12 / Windows）
+pygame>=2.5.0
+
+# 摄像头体感模式额外需要；mediapipe 1.x 已移除旧 solutions API，
+# 本项目使用 Tasks API，请勿降到 0.10 以下。
+opencv-python>=4.8.0
+mediapipe>=1.2.0,<2
+numpy>=1.24
+
+# 可选：用来查看 DirectShow 设备名（tools/camera_check.py 会用到）
+# pygrabber>=0.2
+
+# 语音说"开始"（可选，缺少时自动降级为空格键开始）
+SpeechRecognition>=3.10
+sounddevice>=0.4
